@@ -65,10 +65,7 @@ def reset(event):
     deltaU1_slider.reset()
     deltaU2_slider.reset()
 
-
-# if __name__ == '__main__':
-
-# Load in hdf5 file.
+# Load in hdf5 data file.
 h5file_data = open_file('all_data.h5', 'r')
 
 # Get default plotting colour.
